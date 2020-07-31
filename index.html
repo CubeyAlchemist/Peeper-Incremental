@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peeper Incremental</title>
+</head>
+<body>
+    <h5>Time / Date</h5>
+    <p id="date">Day 0, Moon 0, Year 0</p>
+    <p id="ticks">Ticks: 0</p>
+
+    <h5>Peepers</h5>
+    <p id="peepsVegeto">Vegeto: 0</p>
+    <p id="peepsSentry">Sentry: 0</p>
+    <p id="peepsReddy">Reddy: 0</p>
+    <p id="peepsBizzy">Bizzy: 0</p>
+    <p id="peepsBlu">Blu: 0</p>
+
+    <h5>Jobs</h5>
+    <p id="jobFarmer">Farmers: 0</p><button onclick="addFarmer()">+</button><button onclick="subFarmer()">-</button>
+    <p id="jobGatherer">Gatherers: 0</p><button onclick="addGatherer()">+</button><button onclick="subGatherer()">-</button>
+
+    <h5>Resources</h5>
+    <p id="resourceFood">Food: 0</p>
+    <p id="resourceWood">Wood: 0</p>
+
+    <p id="event"></p>
+    <button onclick="deleteSave()">Delete Save</button>
+    
+    <!--
+    <button onclick="mineGold()">Mine Gold</button>
+    <button onclick="buyGoldPerClick()" id="perClickUpgrade">Upgrade Pickaxe (Currently Level 1) Cost: 10 Gold</button>
+    -->
+    <script src="main.js" charset="utf-8" type="text/javascript"></script>
+</body>
+</html>
